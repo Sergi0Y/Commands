@@ -58,7 +58,7 @@ Docker exec -it <ContainerID> <Command>
 Docker exec -it <d1065c83749s848> <sh>
 ```
 
-## Correr contenedor en el background
+## Correr contenedor en el background
 ```
 Docker run -d <ImageName>
 ```
