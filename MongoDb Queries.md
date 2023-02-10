@@ -11,7 +11,7 @@
 {field: {$exists:'value'}}
 ```
 ```
-{client: {$exists:true/}}
+{client: {$exists:true}}
 ```
 ```
 {client: {$exists:false}}
