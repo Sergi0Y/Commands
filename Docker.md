@@ -14,6 +14,11 @@ Muestra todas las imagenes que se tienen pero las primeras líneas, por si se ti
 ```
 Docker images | head
 ```
+## Revisar imagenes
+Muestra todas las imagenes que tengan cierta palabra en su nombre
+```
+Docker images | grep <Word>
+```
 
 ## Revisar Contenedores
 Muestra los contenedores que están corriendo
