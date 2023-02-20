@@ -12,7 +12,7 @@ Grafana se compone de varios logs, los cuales son tipos de archivos en los que s
 
 En esta imagen en la carpeta Loki - Test Recurso, se ve que existe solo un pod que se está monitoreando, del cual se puede ver (en el lado derecho), la cpu que usa, su limite y lo que se espera que use, lo mismo sucede con la ram asignada al pod. En el lado izquierdo se puede ver un promedio de la cpu y la memoria utilizada en un rango de tiempo que se puede ajustar en la parte superior derecha
 
-## Dashboards
+## Dashboards
 ![](https://i.imgur.com/cRtBQta.png "Grafana Dashborads")
 ![](https://i.imgur.com/kxFHcRJ.png "Grafana Dashborads")
 Actualmente estos son todos los dashborad que tenemos y que se monitorean
