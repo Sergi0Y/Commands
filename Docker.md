@@ -19,6 +19,16 @@ Muestra todas las imagenes que tengan cierta palabra en su nombre
 ```
 Docker images | grep <Word>
 ```
+### Ejemplo
+```
+Docker images | grep <alpine>
+```
+
+## Eliminar imagenes
+Es recomenadle mostrarlas antes de eliminarlas para segurarse de lo que se hace
+```
+Docker rmi <image>
+```
 
 ## Revisar Contenedores
 Muestra los contenedores que están corriendo
