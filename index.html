@@ -33,9 +33,12 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
     <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Test</title>
     <style></style>
@@ -65,7 +68,9 @@
             class="navbar-nav d-flex justify-content-center align-items-center"
           >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+              <a class="nav-link active" aria-current="page" href="#"
+                >Sobre mí</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Proyectos</a>
@@ -77,23 +82,255 @@
               <a class="nav-link" href="#">Contacto</a>
             </li>
           </ul>
-          
         </div>
       </div>
     </nav>
     <!-- HERO -->
-    <section class="hero align-item-strech ">
-      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-        <img class="hero-img-dev " src="/images/person-circle.svg" alt="imagen de perfil">
+    <section class="hero align-item-strech">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-img-dev"
+          src="/images/person-circle.svg"
+          alt="imagen de perfil"
+        />
         <h1>Hola soy Sergio Yáñez</h1>
         <h2>Desarrollo sitios web y aplicaciones en React Native</h2>
-      </div>      
-      <div class="hero-inferior">        
-        <img class="hero-inferior-imagen img-fluid" src="images/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="images/hero-inferior.svg"
+          alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React."
+        />
       </div>
     </section>
 
+    <!-- ABOUT ME -->
+    <section class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Sergio Yáñez</h2>
+        <p class="seccion-texto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante
+          metus, finibus aliquam arcu vitae, luctus pretium urna. Suspendisse in
+          orci sed est mattis iaculis et nec ipsum. Nam eleifend leo dignissim
+          est porttitor pharetra. Aliquam id commodo dui. Nunc vulputate eros
+          non hendrerit elementum. Fusce at lobortis massa, a dapibus lorem.
+          Pellentesque id ligula vitae ipsum malesuada laoreet et a est. Aliquam
+          elit dolor, commodo et rutrum vel, tristique eu ipsum.
+        </p>
+      </div>
+    </section>
 
+    <!-- EXPERIENCE -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- DESARROLLO WEB -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante
+              metus, finibus aliquam arcu vitae, luctus pretium urna.
+              Suspendisse in orci sed est mattis iaculis et nec ipsum. Nam
+              eleifend leo dignissim est porttitor pharetra.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+
+          <!-- ARTICLES -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Artículos</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante
+              metus, finibus aliquam arcu vitae, luctus pretium urna.
+              Suspendisse in orci sed est mattis iaculis et nec ipsum. Nam
+              eleifend leo dignissim est porttitor pharetra.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Escribir</span>
+              <span class="badge text-bg-primary">Editar</span>
+              <span class="badge text-bg-primary">Blogs</span>
+            </div>
+          </div>
+
+          <!-- STUDENT -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante
+              metus, finibus aliquam arcu vitae, luctus pretium urna.
+              Suspendisse in orci sed est mattis iaculis et nec ipsum. Nam
+              eleifend leo dignissim est porttitor pharetra.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">UST</span>
+              <span class="badge text-bg-primary">Bootstrap</span>
+              <span class="badge text-bg-primary">React Native</span>
+              <span class="badge text-bg-primary">Kubernetes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="proyectos-recientes seccion-clara">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">
+        Estos son algunos proyectos que he creado recientemente
+      </h3>
+
+      <!-- GALERIA DE PROYECTOS -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- PROYECTO 1 -->
+          <div class="col-12 col-md-6 col-lg-4">            
+            <div class="proyecto">
+              <img src="/images/gtr.jpg" alt="proyecto 1" />
+              <div class="overlay">              
+                 <p>Proyecto 1<p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https:google.cl" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>               
+                </div>               
+              </div>
+            </div>                                 
+          </div>
+          <!-- PROYECTO 2 -->
+          <div class="col-12 col-md-6 col-lg-4">            
+            <div class="proyecto">
+              <img src="/images/fullmetal.jpg" alt="proyecto 1" />
+              <div class="overlay">              
+                 <p>Proyecto 1<p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https:google.cl" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>               
+                </div>               
+              </div>
+            </div>                     
+            
+          </div>
+
+           <!-- PROYECTO 3 -->
+           <div class="col-12 col-md-6 col-lg-4">            
+            <div class="proyecto">
+              <img src="/images/trafalgar.jpg" alt="proyecto 1" />
+              <div class="overlay">              
+                 <p>Proyecto 1<p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https:google.cl" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>               
+                </div>               
+              </div>
+            </div>                     
+            
+          </div>
+
+           <!-- PROYECTO 4 -->
+           <div class="col-12 col-md-6 col-lg-4">            
+            <div class="proyecto">
+              <img src="/images/kamehouse.png" alt="proyecto 1" />
+              <div class="overlay">              
+                 <p>Proyecto 1<p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https:google.cl" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>               
+                </div>               
+              </div>
+            </div>                     
+            
+          </div>
+
+           <!-- PROYECTO 5 -->
+           <div class="col-12 col-md-6 col-lg-4">            
+            <div class="proyecto">
+              <img src="/images/vaf.jpg" alt="proyecto 1" />
+              <div class="overlay">              
+                 <p>Proyecto 1<p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https:google.cl" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>               
+                </div>               
+              </div>
+            </div>                     
+            
+          </div>
+
+           <!-- PROYECTO 6 -->
+           <div class="col-12 col-md-6 col-lg-4">            
+            <div class="proyecto">
+              <img src="/images/proyecto1.png" alt="proyecto 1" />
+              <div class="overlay">              
+                 <p>Proyecto 1<p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https:google.cl" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>               
+                </div>               
+              </div>
+            </div>                     
+            
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- BOOSTRAP -->
     <script
