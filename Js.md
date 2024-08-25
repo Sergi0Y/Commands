@@ -1,4 +1,4 @@
-## * Es un lenguaje dinámicamente tipado*
+## *Es un lenguaje dinámicamente tipado*
 
 ````
 var persona = {
@@ -54,9 +54,9 @@ function suma (numero1, numero2){
 volver antes de las optimizaciones para volver a empezar
 
 ------------
-##Flow
+
+## Flow
 [![flow js](https://i.imgur.com/WCfgkno.png "flow js")](http://https://i.imgur.com/WCfgkno.png "flow js")
 
-#### *** muchos cambios &rarr; mala perfomarce ***
-
+***muchos cambios &rarr; mala perfomarce***
 
