@@ -44,3 +44,7 @@
 > `git branch --v`
 
 
+ ### git branch -a
+ ------------
+ &bull; Este comando sive para mostrar todas las ramas, ya sean las remotas o las locales
+ ` git branch -a`
