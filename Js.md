@@ -60,3 +60,44 @@ volver antes de las optimizaciones para volver a empezar
 
 ***muchos cambios &rarr; mala perfomarce***
 
+
+
+## Codificación
+
+### Convenciones de nombres
+- #### Variables (y funciones)
+
+**Uso de camelCase:** Para variables y funciones, se utiliza la convención camelCase. Esto significa que la primera palabra comienza con una letra minúscula y cada palabra subsiguiente comienza con una letra mayúscula.
+
+```javascript
+let nombreCompleto = "Sergio";
+function calcularSuma(a, b) {
+    return a + b;
+}
+```
+
+- #### Constantes
+
+**Uso de UPPER_SNAKE_CASE:** Para constantes (especialmente aquellas que son globales o de configuración), se suele utilizar UPPER_SNAKE_CASE. Esto significa que el nombre de la constante está en mayúsculas y las palabras están separadas por guiones bajos.
+
+```javascript
+const MAX_INTENSITY = 100;
+```
+
+- #### Clases
+
+**Uso de PascalCase:** Las clases en JavaScript suelen seguir la convención PascalCase, donde cada palabra comienza con una letra mayúscula.
+```javascript
+class UserProfile {
+    constructor(name) {
+        this.name = name;
+    }
+}
+```
+¿Qué debes usar?
+**Variables y funciones:** Usa camelCase *(miVariable, miFuncion).*
+**Constantes:** Usa UPPER_SNAKE_CASE *(PI, MAX_LENGTH).*
+
+
+
+
