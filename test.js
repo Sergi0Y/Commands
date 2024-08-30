@@ -42,7 +42,8 @@ console.log(libros.cantidad); */
 
 
 ///CHAT GTP CLASS
-//1. VARIABLES Y TIPOS DE DATOS
+
+/*1. VARIABLES Y TIPOS DE DATOS*/
 
 
 //variables
@@ -65,70 +66,212 @@ let myfruits = ["banana", "apple", "strawberry"];
 
 //----------------------------------------------------------------------
 
-//2. FUNCIONES EN JAVASCRIPT
+/*2. FUNCIONES EN JAVASCRIPT*/
 
 //funcion simple
-function bienvenida (){
+function bienvenida() {
     console.log("Bienvenido a JavaScript!");
 }
 bienvenida();
 
 //funcion con parámetros
-function saludarUsuario(nombre){
+function saludarUsuario(nombre) {
     console.log(`Hola ${nombre}`)
 }
 saludarUsuario("ChatGPT");
 
 //funcion con valor de retorno
-function calcularAreaRectangulo(base,altura){
+function calcularAreaRectangulo(base, altura) {
     return base * altura
 }
-console.log(calcularAreaRectangulo(3,5));
+console.log(calcularAreaRectangulo(3, 5));
 
 //funcion de flecha
 const restar = (x, y) => x - y;
-console.log(restar(5,2));
+console.log(restar(5, 2));
 
 
-/*test*/
-/* 1. Declaración de Variables
-Pregunta: Declara una variable llamada pais y asígnale el valor "Chile". Luego, declara una constante llamada PI con el valor 3.14159. */
-let pais = "Chile";
-const PI = 3.14159;
+/* 3. Condicionales y Bucles*/
 
-/* 2. Objetos
-Pregunta: Crea un objeto llamado coche con las propiedades marca (valor "Toyota"), modelo (valor "Corolla"), y anio (valor 2022). */
+//Condicionales
+//if
+let edad = 18;
 
-let coche = {
-    marca: "Toyota",
-    modelo:"Corolla",
-    anio: 2022
+if (edad < 18) {
+    console.log("Eres menor de edad.");
+} else if (edad === 18) {
+    console.log("Tienes 18 años.");
+} else {
+    console.log("Eres mayor de edad.");
 }
 
-/* 3. Arrays
-Pregunta: Declara un array llamado colores que contenga los siguientes colores: "rojo", "verde", "azul". */
-let colores = ["rojo", "verde", "azul"]
+//switch
+let dia = "lunes";
 
-/* 4. Funciones
-Pregunta 4a: Define una función llamada multiplicar que acepte dos parámetros y devuelva el producto de esos dos números. */
-function multiplicar (a,b){
-    return a * b
+switch (dia) {
+    case "lunes":
+        console.log("Hoy es lunes.");
+        break;
+    case "martes":
+        console.log("Hoy es martes.");
+        break;
+    default:
+        console.log("No es ni lunes ni martes.");
 }
-console.log(multiplicar(3,4));
 
+//Bucles
+//for
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
 
-/* Pregunta 4b: Define una función de flecha llamada dividir que acepte dos parámetros y devuelva el cociente de esos dos números. Asegúrate de manejar la división por cero de manera adecuada. */
-const dividir = (x, y) => {
-    if ( y === 0 ){
-        return "Error division por cero";
-    }else{
-        return x / y;        
+//while
+let i = 0;
+
+while (i < 5) {
+    console.log(i);
+    i++;
+}
+
+//for of
+let frutas = ["manzana", "plátano", "cereza"];
+
+for (let fruta of frutas) {
+    console.log(fruta);
+}
+
+//exercises
+
+/*Condicionales:
+Escribe un código que reciba una nota (del 1 al 10) y devuelva una calificación:
+1-3: "Muy Insuficiente"
+4-5: "Insuficiente"
+6: "Suficiente"
+7-8: "Bien"
+9-10: "Sobresaliente"*/
+
+//if
+let score = 10
+
+if (score >= 1 && score <= 3) {
+    console.log("Muy Insuficiente")
+} else if (4 === score || 5 === score) {
+    console.log("Insuficiente")
+}
+else if (score === 6) {
+    console.log("Suficiente")
+}
+else if (7 === score || 8 === score) {
+    console.log("Bien")
+}
+else if (9 === score || 10 === score) {
+    console.log("Sobresaliente")
+}
+else {
+    console.log("Nota fuera de rango")
+}
+
+//switch
+let scores = 1;
+switch (true) {
+
+    case (scores >= 1 && scores <= 3):
+        console.log("Muy Insuficiente");
+        break;
+
+    case (4 === scores || 5 === scores):
+        console.log("Muy Insuficiente");
+        break;
+
+    case (6 === scores):
+        console.log("Suficiente");
+        break;
+
+    case (7 === scores || 8 === scores):
+        console.log("Bien");
+        break;
+
+    case (9 === scores || 10 === scores):
+        console.log("Sobresaliente");
+        break;
+
+    default:
+        console.log("Nota fuera de rango");
+}
+
+/*Bucles:*/
+
+//1.-Crea un array de números y usa un bucle for para calcular la suma de todos los números.
+let suma = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+    suma += numbers[i]
+}
+console.log(suma);
+
+//Promedio
+
+let numbers = [1, 2, 3, 4, 5, 6];
+let x = 0;
+for (let i = 0; i < numbers.length; i++) {
+    x += numbers[i];
+}
+x = x / numbers.length;
+console.log(x);
+
+/* Usa un bucle while para encontrar el primer número impar en un array. */
+
+let numeros = [4, 2, 3, 4, 5, 6];
+let indice = 0;
+let impar = null;
+
+while (indice < numeros.length) {
+    if (numeros[indice] % 2 !== 0) {
+        impar = numeros[indice]
+        break;
     }
-};
+    indice++;
 
-console.log(dividir(9,3))
+}
+console.log(impar)
 
-/* 5. Uso del DOM
-Pregunta: ¿Cómo seleccionarías un elemento con el id "miElemento" y cambiarías su contenido a "Hola desde JavaScript" usando JavaScript? */
-let miElemento = "hola";
-miElemento = "Hola desde JavaScript" ;
+//Bucle for: Crea un bucle que imprima los números del 10 al 1 (en orden descendente).
+
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+}
+
+// Bucle while: Usa un bucle while para sumar los números de un array hasta que la suma sea mayor a 100.
+let numbs = [1, 5, 7, 9, 11, 13, 17, 19, 23, 29];
+let add = 0;
+let ia = 0;
+
+
+while (add > 100) {
+    for (let i = 0; i < numbs.length; i++) {
+        add += numbs[i]
+    }
+    break;
+
+}
+console.log(add)
+
+while (add <= 100 && ia < numbs.length) {
+    add += numbs[ia];
+    ia++;
+}
+
+console.log(add);
+
+
+
+
+/* 
+let numbers = [1, 2, 3, 4, 5, 6];
+let suma = 0;
+
+for (let i = 0; i<numbers.lenght; i++){
+    suma += numbers[i]
+}
+console.log(suma); 
+*/

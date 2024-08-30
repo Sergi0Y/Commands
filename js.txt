@@ -1,0 +1,51 @@
+1. Fundamentos de JavaScript
+
+    Variables y Tipos de Datos: Conceptos básicos como let, const, tipos primitivos (números, strings, booleanos), y cómo manipularlos.
+
+    Funciones: Definición de funciones, parámetros, valores de retorno, y funciones de flecha (arrow functions).
+
+    Condicionales y Bucles: Uso de if, else, switch, y bucles como for, while, y for...of.
+
+    Arrays y Objetos: Cómo manipular arrays y objetos, métodos útiles (map, filter, reduce).
+
+    ES6+ Features: Desestructuración, plantillas literales (template literals), promesas y async/await.
+
+
+2. Aplicación de JavaScript en el DOM
+
+    Selección de Elementos: Uso de document.querySelector, getElementById, etc.
+
+    Eventos: Cómo manejar eventos (click, input, etc.) y agregar interactividad a una página web.
+
+    Manipulación del DOM: Cambiar el contenido, estilo, y estructura de una página usando JavaScript.
+
+
+3. Introducción a React
+
+    Conceptos Básicos de React: Qué es React, cómo crear un proyecto con Create React App.
+
+    JSX: Aprender a escribir JSX, cómo se relaciona con JavaScript y HTML.
+
+    Componentes: Crear y reutilizar componentes, entender props y state.
+
+    Hooks: Introducción a useState, useEffect, y otros hooks básicos.
+
+    Gestión de Eventos: Cómo manejar eventos en React, y la diferencia con JavaScript puro.
+
+    React Router: Navegación entre páginas en una SPA (Single Page Application).
+
+
+4. Proyectos Prácticos
+
+    To-Do List: Un proyecto sencillo para aplicar conceptos de estado, manejo de eventos, y renderizado condicional.
+
+    Buscador de Noticias: Consumir una API externa para mostrar noticias en tiempo real.
+
+    Tienda en Línea Básica: Crear un pequeño sitio de e-commerce con carrito de compras, utilizando React Router y hooks avanzados.
+
+
+5. Aprendizaje Continuo
+
+    Optimización de Código: Mejores prácticas en React y JavaScript.
+
+    Deploy: Publicar tu aplicación usando servicios como Vercel o Netlify.
