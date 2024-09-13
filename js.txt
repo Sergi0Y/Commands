@@ -49,3 +49,8 @@
     Optimización de Código: Mejores prácticas en React y JavaScript.
 
     Deploy: Publicar tu aplicación usando servicios como Vercel o Netlify.
+
+
+
+    Hola, estoy continuando con el aprendizaje de JavaScript. En el chat anterior, trabajamos en temas como variables, funciones, bucles, y métodos de arrays. Ya he hecho ejercicios relacionados con estos temas. ¿Podemos continuar con el próximo tema en la lista que es "ES6+ Features"? Gracias.
+avisar que es basico desde un comienzo para posteriormente aprender react
