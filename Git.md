@@ -1,5 +1,26 @@
 #  **comandos utiles para git :**
 
+## Clonar repositorio de GitHub a tu pc
+
+#### 1. Copiar la URL del repositorio
+- Ve a GitHub y abre el repositorio que quieres clonar.
+-  Haz clic en el botón verde "Code".
+-  Copia la URL del repositorio (HTTPS o SSH, según prefieras).
+		https://github.com/usuario/repositorio.git
+
+#### 2. Ejecutar el comando de clonación en la terminal
+		git clone URL_DEL_REPOSITORIO
+***ejemplo:***
+
+		git clone https://github.com/usuario/repositorio.git
+
+------------
+
+### Cómo saber en que repositorio estoy trabajando
+------------
+>`git remote -v`
+
+
 ### git add .
 
 ------------
@@ -16,7 +37,7 @@
 ------------
 &bull; Sirve para comentar, el comando original es git commit a secas pero con el -m (después de la "m", va un espacio y luego las comillas) sirve para poner una descripción del comentario entre comillas ("") ejemplo:
 &bull; Agregué una imagen en la carpeta, ejemplo:
->` git commit -m "Add: la.png"`
+>` git commit -m "Add: img.png"`
 
 ### git push
 
@@ -24,6 +45,11 @@
  &bull; Este comando sirve para subir los datos al github y que podamos verlos todos, es el paso final, sin este no se sube nada, va solito el git push, así:
 >` git push`
 
+## Branches
+
+### git branch newBranch
+&bull; Sirve para crear una rama nueva, reemplazando "branchName" por el nombre que quieras ponerle
+> `git branch branchName`
 
 ### git checkout
 ------------
@@ -36,6 +62,16 @@
 ------------
 &bull; Sirve para actualizar las ramas, en caso de que se haya creado una y no te aparezca en el visual studio, es similar al git pull pero no actualiza de forma automatica, sino que trae lo nuevo nomas
 > `git fetch`
+
+
+### git branch
+
+------------
+ &bull; Estas sirven prar saber en qué rama estás dentro del repositorio
+> `git branch`
+> `git status`
+
+
 
 ### git branch --v
 
