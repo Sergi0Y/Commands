@@ -1,4 +1,4 @@
-#  **comandos utiles para git :**
+#  **COMANDOS ÚTILES PARA GIT :**
 
 ## Clonar repositorio de GitHub a tu pc
 
