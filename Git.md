@@ -1,5 +1,22 @@
 #  **COMANDOS ÚTILES PARA GIT :**
 
+## Conventional Commits
+
+&bull;**feat:** → para nuevas funciones o funcionalidades
+
+&bull;**fix:** → para correcciones de errores
+
+&bull;**chore:** → para tareas de mantenimiento
+
+&bull;**refactor:** → para reestructurar código sin cambiar su funcionalidad
+
+&bull;**docs:** → para documentación
+
+&bull;**style:** → cambios de formato, indentación, etc.
+
+&bull;**test:** → para pruebas
+
+
 ## Clonar repositorio de GitHub a tu pc
 
 #### 1. Copiar la URL del repositorio
