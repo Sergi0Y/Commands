@@ -31,12 +31,7 @@
 
 		git clone https://github.com/usuario/repositorio.git
 
-------------
-
-### Cómo saber en que repositorio estoy trabajando
-------------
->`git remote -v`
-
+## Modificación del repositorio
 
 ### git add .
 
@@ -61,6 +56,17 @@
 ------------
  &bull; Este comando sirve para subir los datos al github y que podamos verlos todos, es el paso final, sin este no se sube nada, va solito el git push, así:
 >` git push`
+
+### git pull
+
+------------
+ &bull; Sirve para actualizar los datos del github y que podamos ver lo que está actualmente en el, en caso de que se tenga una versión anterior al de la nube
+>` git push`
+
+### Cómo saber en que repositorio estoy trabajando
+------------
+>`git remote -v`
+
 
 ## Branches
 
@@ -101,3 +107,27 @@
  ------------
  &bull; Este comando sive para mostrar todas las ramas, ya sean las remotas o las locales
  ` git branch -a`
+
+## Merge
+- Este comando me sirve para combinar dos ramas, por ejemplo si yo estoy trabajando en mi rama 1 con mi proyecto y lo termino, entonces debo subirlo a la rama principal, pero para no mover los archivos manualmente uno por uno lo que hacemos es mezclar o combinar las ramas.
+
+⚠️ Advertencia: Nunca hagas un merge si tienes cambios sin guardar (sin hacer **commit**) en tu rama actual, ya que Git podría bloquear la operación.
+
+1. Lo primero que debemos hacer es movernos a nuestra rama que recibirá los cambios. Por ejemplo nos moveremos de nuestra `testing` al `main.`
+   ```git 
+	git checkout main
+   ```
+2. Vamos a actualizar la rama `main.` para estar al día con el repositorio
+   ```git 
+	git pull origin main
+   ```
+3. Ejecutamos el merge con la rama de la que queremos extraer la información
+   ```git 
+    git merge desarrollo-portafolio
+   ```
+4. Subimos los cambios a la nube de Github
+   ```git 
+    git push origin main
+   ```
+
+
